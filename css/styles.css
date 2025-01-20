@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa; /* Light background */
+}
+
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+#togglePassword {
+    background: none;
+    border: none;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+#togglePassword:hover {
+    color: #000;
+}
+
+#togglePassword {
+    cursor: pointer;
+}
+#togglePassword i {
+    font-size: 1rem;
+    color: #6c757d;
+}
+#togglePassword:hover i {
+    color: #000;
+}
+
+/* Targeting the login button specifically */
+button.btn.btn-primary {
+    background-color: #5e10d3;
+    border-color: #5e10d3;
+}
+
+button.btn.btn-primary:hover {
+    background-color: #6b5bf5;
+    border-color: #6b5bf5;
+}
